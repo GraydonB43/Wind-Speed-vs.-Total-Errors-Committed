@@ -1,7 +1,3 @@
-### Term Project ###
-
-getwd()
-setwd("/Users/graydon/Desktop/Baseball DataSet")
 data <- read.csv("baseball_reference_2016_clean.csv")
 data
 data_orig <- data
@@ -34,7 +30,7 @@ sample_data$home_team_win <- NULL
 sample_data$home_team_loss <- NULL
 sample_data$home_team_outcome <- NULL
 sample_data
-write.csv(sample_data, "C:\\Users\\graydon\\Desktop\\Baseball DataSet\\term project.csv")
+write.csv(sample_data, "Baseball DataSet/term project.csv")
 
 hist(sample_data$wind_speed)
 hist(sample_data$total_errors)
